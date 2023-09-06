@@ -1,5 +1,5 @@
 "use client"
-import Image from 'next/image';
+
 import Link from 'next/link'
 import React from 'react'
 import { useEffect, useState } from 'react';
@@ -31,9 +31,6 @@ const Navbar = () => {
     };
   return (
     <div>
-        {/* mobile*/ }
-
-        {/* desktop */}
         <div>
             <header className="fixed md:grid hidden z-50 font-bold w-full backdrop-blur-sm text-black dark:text-white body-font">
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
