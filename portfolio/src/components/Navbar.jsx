@@ -35,9 +35,9 @@ const Navbar = () => {
   return (
     <div>
       <div>
-        <header className="fixed md:grid hidden z-50 font-bold w-full backdrop-blur-sm text-black dark:text-white body-font">
-          <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <Link href="/">
+        <header className="fixed md:grid  z-50 font-bold w-full backdrop-blur-sm text-black dark:text-white body-font">
+          <div className="container mx-auto flex flex-wrap  p-2 flex-col md:flex-row ">
+            <Link href="https://github.com/TejasNayak42">
             <Image
                     src={avatarUrl}
                     alt="GitHub Avatar"
@@ -45,8 +45,6 @@ const Navbar = () => {
                     height={600} // Specify the height
                     className=" w-14 h-14 rounded-full"
                 />
-
-              <span className="ml-3">Tejas Nayak B</span>
             </Link>
           </div>
         </header>
