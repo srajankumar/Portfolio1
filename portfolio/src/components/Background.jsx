@@ -3,7 +3,7 @@ import Image from "next/image";
 const Background = () => {
   return (
     <div>
-      <div className="fixed opacity-90">
+      <div className="fixed opacity-90 ">
         <Image
           src="/assets/Bg_BlackishBlue.jpg"
           alt="background"
