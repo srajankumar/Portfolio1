@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 const Background = () => {
   return (
@@ -13,7 +13,7 @@ const Background = () => {
         ></Image>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Background
+export default Background;
