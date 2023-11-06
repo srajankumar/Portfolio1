@@ -56,13 +56,22 @@ const Navbar = () => {
                   className=" font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-2 cursor-pointer"
                   href="project"
                 >
+                  About
+                </Link>
+              </button>
+
+              <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
+                <Link
+                  className=" font-gothamB tracking-wide  flex items-center justify-center px-5 cursor-pointer"
+                  href="project"
+                >
                   Projects
                 </Link>
               </button>
 
               <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
                 <Link
-                  className=" font-gothamB tracking-wide flex items-center justify-center px-10 cursor-pointer"
+                  className=" font-gothamB tracking-wide flex items-center justify-center px-5 cursor-pointer"
                   href="contact"
                 >
                   Contact
