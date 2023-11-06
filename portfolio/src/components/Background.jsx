@@ -5,7 +5,7 @@ const Background = () => {
     <div>
       <div className="fixed opacity-90 ">
         <Image
-          src="/assets/Bg_BlackishBlue.jpg"
+          src="/assets/Bg_BlackishDarkBlue.jpg"
           alt="background"
           className="fixed object-cover w-full h-full"
           width={500}

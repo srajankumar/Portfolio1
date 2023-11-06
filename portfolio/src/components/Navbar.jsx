@@ -54,7 +54,7 @@ const Navbar = () => {
               <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
                 <Link
                   className=" font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-2 cursor-pointer"
-                  href="project"
+                  href="#about"
                 >
                   About
                 </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
               <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
                 <Link
                   className=" font-gothamB tracking-wide  flex items-center justify-center px-5 cursor-pointer"
-                  href="project"
+                  href="#project"
                 >
                   Projects
                 </Link>
@@ -72,7 +72,7 @@ const Navbar = () => {
               <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
                 <Link
                   className=" font-gothamB tracking-wide flex items-center justify-center px-5 cursor-pointer"
-                  href="contact"
+                  href="#contact"
                 >
                   Contact
                 </Link>
