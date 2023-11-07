@@ -16,9 +16,9 @@ export default function Home() {
         <section id="about">
           <About />
         </section>
-        <section id="project">
+        {/* <section id="project">
           <Project />
-        </section>
+        </section> */}
       </div>
     </div>
   );
