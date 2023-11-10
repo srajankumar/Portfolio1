@@ -9,9 +9,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <div className="bg-transparent">
       <Background />
+      <Navbar />
       <div className="pt-20 px-10">
         <section id="about">
           <About />

@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { Slide, Bounce } from "react-reveal";
 import Fade from "react-reveal/Fade";
 
@@ -27,7 +26,7 @@ const About = () => {
               <p className="  lg:tracking-wide font-[450] ">
                 Passionate web developer actively engaged in projects, and a
                 third year engineering student at Sahyadri College of
-                Engineering, eager to explore new technologies.
+                Engineering and Management, eager to explore new technologies.
               </p>
             </Slide>
           </div>
