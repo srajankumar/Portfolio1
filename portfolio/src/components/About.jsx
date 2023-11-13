@@ -1,7 +1,9 @@
 "use client";
 import { Slide, Bounce } from "react-reveal";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-scroll";
 
+const resume = "TejasNayakB_Resume.pdf";
 const About = () => {
   return (
     <div className="min-h-[90vh]">
@@ -20,7 +22,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <div className="flex w-full  text-white justify-center">
+        <div className="flex flex-col items-center w-full  text-white justify-center">
           <div className="flex py-5 text-lg md:w-3/5 text-center">
             <Slide bottom cascade>
               <p className="  lg:tracking-wide font-[450] ">
@@ -30,6 +32,11 @@ const About = () => {
               </p>
             </Slide>
           </div>
+          <Slide bottom>
+            <a href={resume} target="_blank" className=" font-gothamM ">
+              resume
+            </a>
+          </Slide>
         </div>
       </div>
     </div>
