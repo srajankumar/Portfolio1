@@ -2,6 +2,7 @@
 import About from "@/components/About";
 import Background from "@/components/Background";
 import Navbar from "@/components/Navbar";
+// import App from "@/components/Project";
 import Project from "@/components/Project";
 
 export default function Home() {
@@ -13,9 +14,10 @@ export default function Home() {
         <section id="about">
           <About />
         </section>
-        {/* <section id="project">
+
+        <section id="project">
           <Project />
-        </section> */}
+        </section>
       </div>
     </div>
   );
