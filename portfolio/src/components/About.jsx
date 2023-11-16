@@ -1,7 +1,6 @@
 "use client";
 import { Slide, Bounce } from "react-reveal";
 import Fade from "react-reveal/Fade";
-import { Link } from "react-scroll";
 
 const resume = "TejasNayakB_Resume.pdf";
 const About = () => {

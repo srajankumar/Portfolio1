@@ -44,59 +44,18 @@ const App = () => {
 
 const Project = ({ projects }) => {
   return (
-    <div className="lg:px-[2%] md:px-0">
-      <div className="lg:px-24 md:px-16 flex items-center justify-center min-h-screen px-2 py-24 mx-auto">
-        <div className="flex flex-col w-fit">
-          <h1 className="mb-5 mx-5 md:mx-3.5 font-gothamB text-4xl">
-            <Header content="Project." />
-          </h1>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 md:justify-start justify-center w-fit">
-            {projects.map((project, index) => (
-              <div className="p-4 w-full" key={index}>
-                <Slide bottom delay={index * 200}>
-                  <Tilt>
-                    <Link href={project.link}>
-                      <div className="h-full bg-[#d1f2f9] bg-opacity-5 rounded-3xl overflow-hidden">
-                        <Image
-                          height={500}
-                          width={500}
-                          className="lg:h-48 md:h-36 w-full object-cover object-center"
-                          src={project.imageSrc}
-                          alt={project.title}
-                        />
-                        <div className="font-gothamL p-6">
-                          <h1 className="title-font text-xl font-gothamB mb-3">
-                            {project.title}
-                          </h1>
-                          <p className="leading-relaxed mb-3">
-                            {project.description}
-                          </p>
-                          <div className="flex items-center flex-wrap">
-                            {project.tags.map((tag, index) => (
-                              <span
-                                key={index}
-                                className="text-green-500 pr-2 inline-flex items-center md:mb-2 lg:mb-0"
-                              >
-                                {tag}
-                              </span>
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </Tilt>
-                </Slide>
-              </div>
-            ))}
+    <>
+      <div className="flex flex-col md:hover:scale-[101%] transition duration-300 scale-100 border-input space-y-4 rounded-xl border-[1px] border-tertiary bg-secondary/50 p-4 md:min-h-48 md:flex-row md:space-y-0 md:space-x-8">
+        <div className="overflow-hidden rounded-lg md:w-72"></div>
+        <div className="flex flex-1 flex-col md:w-5 overflow-hidden justify-between">
+          <div className="flex flex-col space-y-2">
+            <p className="text-sm text-gray-300">abc</p>
+            <div className="flex flex-col space-y-2 md:flex-row md:items-center md:space-x-2 md:space-y-0"></div>
           </div>
-          <div className="flex font-gothamM tracking-wide justify-center pt-10 w-full">
-            <ExternalLink href="https://github.com/srajankumar" _blank="y">
-              Excited to see more work?
-            </ExternalLink>
-          </div>
+          <div className="flex mt-2 flex-wrap items-center"></div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
