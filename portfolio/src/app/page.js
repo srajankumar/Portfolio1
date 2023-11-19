@@ -1,6 +1,7 @@
 "use client";
 import About from "@/components/About";
 import Background from "@/components/Background";
+import Experience from "@/components/Flowchart/page";
 import Navbar from "@/components/Navbar";
 // import App from "@/components/Project";
 import Project from "@/components/Project";
@@ -17,6 +18,9 @@ export default function Home() {
 
         <section id="project">
           <Project />
+        </section>
+        <section id="flowchart">
+          <Experience />
         </section>
       </div>
     </div>
