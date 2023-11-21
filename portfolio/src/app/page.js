@@ -15,7 +15,8 @@ export default function Home() {
         <section id="about">
           <About />
         </section>
-
+      </div>
+      <div className="px-5">
         <section id="project">
           <Project />
         </section>
