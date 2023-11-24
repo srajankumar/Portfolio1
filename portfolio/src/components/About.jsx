@@ -23,7 +23,7 @@ const About = () => {
       <div>
         <div className="flex flex-col items-center w-full  text-white justify-center">
           <div className="flex py-5 text-lg md:w-3/5 text-center">
-            <Slide bottom cascade>
+            <Fade bottom>
               <p className="  lg:tracking-wide font-[499] ">
                 Passionate web developer actively engaged in projects,also
                 exploring Cloud Computing and a third year engineering student
@@ -31,7 +31,7 @@ const About = () => {
                 explore new <br className="min-[768px]:hidden" />
                 technologies.
               </p>
-            </Slide>
+            </Fade>
           </div>
 
           <Slide bottom>
