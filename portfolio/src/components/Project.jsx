@@ -63,7 +63,10 @@ const convertGithubLink = (githubLink) => {
 const Projects = () => {
   return (
     <>
-      <div className="flex xl:mx-20 lg:mx-10 mx:5 justify-center items-center">
+      <div className="flex flex-col max-w-7xl mx-auto justify-center items-center">
+        <h1 className="text-3xl px-5 text-left w-full py-5 font-bold tracking-wide">
+          Projects
+        </h1>
         <div className="grid lg:grid-cols-3 md:grid-cols-2">
           {projects.map((project, index) => (
             <div key={index} className="w-full p-5">

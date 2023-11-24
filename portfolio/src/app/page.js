@@ -16,14 +16,12 @@ export default function Home() {
           <About />
         </section>
       </div>
-      <div className="px-5">
-        <section id="project">
-          <Project />
-        </section>
-        <section id="flowchart">
-          <Experience />
-        </section>
-      </div>
+      <section className="min-h-screen flex" id="project">
+        <Project />
+      </section>
+      <section id="flowchart">
+        <Experience />
+      </section>
     </div>
   );
 }
